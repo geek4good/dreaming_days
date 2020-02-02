@@ -5,8 +5,7 @@
   },
   "api": {
     "projectId": "hjf85159",
-    "dataset": "production",
-    "token": "skHD5hvrvSMibw26Y065JyjM9l9lZJXM81rWAuh0i4HcokwYD41o30NohLOla7gLgAUvGoIYcpIxMeOQ9IoPPwqtZGCqrB5mNucATWoM3Wf0HesfeZnZy1Z06peewtGfzx8Xnta5NtNJxQs6Br01yospNhA7enVfFuHw53rQ9vYkoXfzPswv"
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
