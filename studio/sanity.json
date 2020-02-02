@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "project": {
+    "name": "DreamingDays"
+  },
+  "api": {
+    "projectId": "hjf85159",
+    "dataset": "production",
+    "token": "skHD5hvrvSMibw26Y065JyjM9l9lZJXM81rWAuh0i4HcokwYD41o30NohLOla7gLgAUvGoIYcpIxMeOQ9IoPPwqtZGCqrB5mNucATWoM3Wf0HesfeZnZy1Z06peewtGfzx8Xnta5NtNJxQs6Br01yospNhA7enVfFuHw53rQ9vYkoXfzPswv"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
